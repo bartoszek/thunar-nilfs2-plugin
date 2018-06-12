@@ -8,7 +8,7 @@ INCLUDES =									\
 	-DPACKAGE_LOCALE_DIR=\"$(localedir)\"	\
 	$(PLATFORM_CPPFLAGS)
 
-extensionsdir = $(libdir)/thunarx-2
+extensionsdir = $(libdir)/thunarx-3
 extensions_LTLIBRARIES = libthunar-nilfs2-plugin.la
 
 libthunar_nilfs2_plugin_la_SOURCES = nilfs2-plugin.c \

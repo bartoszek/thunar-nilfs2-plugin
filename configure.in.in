@@ -71,7 +71,7 @@ dnl *** Check for required packages ***
 dnl ***********************************
 XDT_CHECK_PACKAGE([GTK], [gtk+-2.0], [2.12.0])
 XDT_CHECK_PACKAGE([EXO], [exo-1], [0.5.0])
-XDT_CHECK_PACKAGE([THUNARX], [thunarx-2], [1.0.1])
+XDT_CHECK_PACKAGE([THUNARX], [thunarx-3], [1.0.1])
 
 dnl TODO: NILFS2 library check
 
